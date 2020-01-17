@@ -16,6 +16,9 @@ private:
 public:
 	Geometry();
 	~Geometry();
+	void set_width(int);
+	void set_height(int);
+	void get_width_and_height(void);
 	int area();
 };
 
@@ -30,8 +33,22 @@ Geometry::~Geometry()
 }
 
 int Geometry::area() {
-	cout << "Base class Area \n" << endl;
+	cout << "Base class Area" << endl;
 	return (width * height);
 }
 
+void Geometry::set_width(int w)
+{
+	width = w;
+}
+void Geometry::set_height(int h)
+{
+	height = h;
+}
+
+void Geometry::get_width_and_height(void)
+{
+	cout << "width: " << width
+	     << " height: " << height << endl;
+}
 #endif
