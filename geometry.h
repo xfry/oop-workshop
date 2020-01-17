@@ -19,6 +19,9 @@ public:
 	void set_width(int);
 	void set_height(int);
 	void get_width_and_height(void);
+	int get_width(void);
+	int get_height(void);
+
 	int area();
 };
 
@@ -51,4 +54,15 @@ void Geometry::get_width_and_height(void)
 	cout << "width: " << width
 	     << " height: " << height << endl;
 }
+
+int Geometry::get_width()
+{
+	return width;
+}
+
+int Geometry::get_height()
+{
+	return height;
+}
+
 #endif

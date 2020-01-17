@@ -5,14 +5,18 @@
 
 class Triangle : public Geometry
 {
+public:
 	~Triangle();
 	int area(void);
 };
 
-int Triangle:area(void)
+int Triangle::area(void)
 {
 	cout << "Triangle Area method" << endl;
-	return (width*height / 2);
+	int w = get_width();
+	int h = get_height();
+
+	return (w*h / 2);
 }
 
 Triangle::~Triangle()
