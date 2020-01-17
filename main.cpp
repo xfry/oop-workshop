@@ -1,19 +1,18 @@
 #include <iostream>
-#include "geometry.h"
+#include "rectangle.h"
+#include "triangle.h"
+#include "rombo.h"
 
 int main(void)
 {
-	Geometry rectangle;
-	Geometry triangle;
+	Rectangle rec;
+	Triangle triang;
+	Rombo romb;
 
-	rectangle.set_width(100);
-	rectangle.set_height(100);
-	rectangle.get_width_and_height();
-	cout << rectangle.area() << endl;
+	rec.area();
+	triang.area();
 
-	/** The base class method Area doesn't apply for triangles*/
-
-	/** Here is when inheritance becomes key */
+	romb.area();
 
 	return (0);
 }
