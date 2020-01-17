@@ -16,10 +16,22 @@ private:
 public:
 	Geometry();
 	~Geometry();
-	int area() {
-		cout << "Base class Area \n" << endl;
-		return (width * height);
-	}
+	int area();
 };
+
+Geometry::Geometry()
+{
+	cout << "Base Shape created" << endl;
+}
+
+Geometry::~Geometry()
+{
+	cout << "Base Shape destroyed" << endl;
+}
+
+int Geometry::area() {
+	cout << "Base class Area \n" << endl;
+	return (width * height);
+}
 
 #endif
