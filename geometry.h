@@ -22,7 +22,7 @@ public:
 	int get_width(void);
 	int get_height(void);
 
-	int area();
+	virtual int area();
 };
 
 Geometry::Geometry()

@@ -6,19 +6,18 @@
 
 using namespace std;
 
-class Rombo : public Triangle, public Rectangle
+class Rombo : public virtual Triangle, public virtual Rectangle
 {
 public:
+	int area(void);
 	~Rombo();
 };
 
-/**
-int Rombo::area()
+int Rombo::area(void)
 {
 	cout << "Rombo area method" << endl;
 	return (0);
 }
-*/
 
 Rombo::~Rombo()
 {
