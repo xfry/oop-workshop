@@ -15,7 +15,7 @@ private:
 	int height;
 public:
 	Geometry();
-	~Geometry();
+	virtual~Geometry();
 	void set_width(int);
 	void set_height(int);
 	void get_width_and_height(void);

@@ -5,12 +5,16 @@
 
 int main(void)
 {
+	Geometry *shape;
 	Rectangle rec;
 	Triangle triang;
 	Rombo romb;
 
-	rec.area();
-	triang.area();
+	shape = &rec;
+	shape->area();
+
+	shape = &triang;
+	shape->area();
 
 	romb.area();
 
