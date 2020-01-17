@@ -6,7 +6,14 @@ The purpose of this repository is to review the praradigm of OOP -Object Oriente
 
 This workshop was created for people that already knows `C` as language and has been doing the question ```Why OOP matter?```
 
-The workshop is devided in branches that you can download to examine the code, also it has a blueprint for every challenge we gonna face.
+The workshop is devided in branches that you can download to examine the code.
+
+- geometry_shapes
+- inheritance
+- master
+- polymorphism
+
+You should use the next slides for information about OOP `Object Oriented Programming` https://docs.google.com/presentation/d/1e9cU9lCws95e_6f-DtAnMal5Sh_4XX4kfrEDopZHLRo
 
 
 ## Requeriments
